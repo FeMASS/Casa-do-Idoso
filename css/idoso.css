@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+  border: solid;
+}
+.nav {
+  position: absolute;
+  left: 0px;
+  width: 200px;
+}
+section {
+  /* position is static by default */
+  margin-left: 200px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+body {
+  margin-bottom: 120px;
+}
+
+
+#container {
+    width: 100%;
+    border-color: blue;
+    text-align: center;
+}
+
+.box {
+    float: left;
+    width: 150px; height: 200px;
+    margin: 10px 20px;
+}
+
+#box-1 { background-color: red; }
+#box-2 { background-color: green; }
+#box-3 { background-color: pink; }

@@ -10,11 +10,11 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body>
+<body class="grey lighten-5">
 
  <!-- BARRA DE NAVEGAÇÂO -->
-  <nav class="light-blue lighten-1 " role="navigation" style="border: solid">
-    <div class="nav-wrapper container" style="border: solid"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+  <nav class="light-blue lighten-1 " role="navigation" >
+    <div class="nav-wrapper container" ><a id="logo-container" href="#" class="brand-logo">Logo</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">Login</a></li>
       </ul>
@@ -27,39 +27,85 @@
   </nav>
   <!-- NAVEGAÇÂO BARRA -->
   
-  <div class="section no-pad-bot" id="index-banner" style="border: solid">
-  <div class="row">
-	 <div class="col s6 center" style="border:solid"><img class="responsive-img center" height="50" width="300" src="img/asilo.jpg"></div>
-      <div class="col s6" style="border:solid"><h1 class="header center orange-text">Casa do idoso</h1>
-	  <h5 class="header col center s12 light">Um lar para todos</h5>
 
-</div>
+  <div class="container" id="index-banner" >
+    <div class="col s12 m7">
+    <div class="card horizontal">
+      <div class="card-image">
+        <img class=".hide-on-small-only" src="img\asilo.jpg">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <div class="col s12"><h2 class="header center blue-text text-darken-2">Casa do idoso</h2><h5 class="header col center s12 light">Um lar para todos</h5>
+        </div>
+
+      </div>
+    </div>
   </div>
-  </div>
+  </div>       
+	</div>
 
-
-  <div class="container" style="border: solid">
-    <div class="section" style="border: solid">
+  <div class="container" >
+    <div class="section" >
 
       <!--   Icon Section   -->
-      <div class="row" style="border: solid">
+      <div class="row" >
 
-        <div class="col s12 m4" style="border: solid">
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Seja um Voluntário</a></li>
-			<li><a href="#">Ações solidárias</a></li>
-			<li><a href="#">Contato</a></li>
-		</ul>
+        <div class="col s12 m4" >
+		
+	  <div class="row">
+        <div class="col s12 m12">
+          <div class="card light-blue lighten-5">
+            <div class="card-content white-text">
+              <span class="card-title blue-text text-darken-2">Menu</span>
+              <ul> 
+			<li><a href="#">Home</a></li> 
+			<li><a href="#">Seja um Voluntário</a></li> 
+			<li><a href="#">Ações solidárias</a></li> 
+			<li><a href="#">Contato</a></li> 
+			</ul>
+            </div>
+          </div>
+        </div>
+      </div>
         </div>
 		
-		<div class="col s12 m8" style="border: solid">
+		<div class="col s12 m8" >
 		<div>
-			<h5 class="right-align">Heading</h5>
-		</div>
-		<div>
-			<h6 class="right-align">Primeiro eu queria cumprimentar os internautas. -Oi Internautas! Depois dizer que o meio ambiente é sem dúvida nenhuma uma ameaça ao desenvolvimento sustentável. E isso significa que é uma ameaça pro futuro do nosso planeta e dos nossos países. O desemprego beira 20%, ou seja, 1 em cada 4 portugueses.
-</h6>
+		<div class="row">
+		  <div class="row">
+			<div class="input-field col s12">
+			  <input id="text" type="text" class="validate">
+			  <label for="text">Nome</label>
+			</div>
+			<div class="input-field col s12">
+			  <input id="email" type="email" class="validate">
+			  <label for="text">E-mail</label>
+			</div>
+			</div>
+			<div>		
+		  <label>Tipo</label>
+		  <select class="browser-default">
+			<option value="" disabled selected>Selecione sua opção</option>
+			<option value="1">Cuidados de Idosos</option>
+			<option value="2">Option 2</option>
+			<option value="3">Option 3</option>
+		  </select>
+		  </div>
+			<br>
+			<div class="row">
+			<form class="col s12">
+			<div class="row">
+			<div class="input-field col s12">
+			<textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+			<label for="icon_prefix2">Descreva sua experiência e disponibilidade</label>
+			</div>
+			</div>
+			</form>
+			<div>
+			<a class="waves-effect waves-light btn right">Enviar</a>
+			</div>
+		  </div>
 		</div>
         </div>
 
@@ -70,15 +116,15 @@
   </div>
 
   <footer class="page-footer orange">
-    <div class="container" style="border: solid">
-      <div class="row" style="border: solid">
-        <div class="col l6 s12" style="border: solid">
+    <div class="container" >
+      <div class="row" >
+        <div class="col l6 s12" >
           <h5 class="white-text">Company Bio</h5>
           <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
 
 
         </div>
-        <div class="col l3 s12" style="border: solid">
+        <div class="col l3 s12" >
           <h5 class="white-text">Settings</h5>
           <ul>
             <li><a class="white-text" href="#!">Link 1</a></li>
